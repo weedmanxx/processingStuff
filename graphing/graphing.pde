@@ -17,7 +17,7 @@ void draw() {
   for(int y = -height/2; y < height/2; y++) {
    for(int x = -width/2; x < width/2; x++) {
     
-     if(pow(2, x) == y) {
+     if(x == y*.2) {
      rect(x, -y, 1, 1);
      }
    }
